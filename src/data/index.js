@@ -1,0 +1,128 @@
+export const PlayerData = {
+	A: {
+		skip: 15,
+		minKey: 0,
+		maxKey: 7,
+		home: 7,
+	},
+	B: {
+		skip: 7,
+		minKey: 8,
+		maxKey: 15,
+		home: 15,
+	}		
+};
+
+export const SungkaData = [
+	{
+		home: false, 
+		team: "A",
+		stones: 7, opposite: 14,
+		nextPit: 1,
+	},
+	{
+		home: false, 
+		team: "A",
+		stones: 7,
+		opposite: 13,
+		nextPit: 2,
+	},
+	{
+		home: false, 
+		team: "A",
+		stones: 7,
+		opposite: 12,
+		nextPit: 3,
+	},
+	{
+		home: false, 
+		team: "A",
+		stones: 7,
+		opposite: 11,
+		nextPit: 4,
+	},
+	{
+		home: false, 
+		team: "A",
+		stones: 7,
+		opposite: 10,
+		nextPit: 5,
+	},
+	{
+		home: false, 
+		team: "A",
+		stones: 7,
+		opposite: 9,
+		nextPit: 6,
+	},
+	{
+		home: false, 
+		team: "A",
+		stones: 7,
+		opposite: 8,
+		nextPit: 7,
+	},
+	{
+		home: true, 
+		team: "A",
+		stones: 0,
+		opposite: null,
+		nextPit: 8,
+	},
+	{
+		home: false, 
+		team: "B",
+		stones: 7,
+		opposite: 6,
+		nextPit: 9,
+	},
+	{
+		home: false, 
+		team: "B",
+		stones: 7,
+		opposite: 5,
+		nextPit: 10,
+	},
+	{
+		home: false, 
+		team: "B",
+		stones: 7,
+		opposite: 4,
+		nextPit: 11,
+	},
+	{
+		home: false, 
+		team: "B",
+		stones: 7,
+		opposite: 3,
+		nextPit: 12,
+	},
+	{
+		home: false, 
+		team: "B",
+		stones: 7,
+		opposite: 2,
+		nextPit: 13,
+	},
+	{
+		home: false, 
+		team: "B",
+		stones: 7,
+		opposite: 1,
+		nextPit: 14,
+	},
+	{
+		home: false, 
+		team: "B",
+		stones: 7,
+		opposite: 0,
+		nextPit: 15,
+	},
+	{
+		home: true, 
+		team: "B",
+		stones: 0,
+		opposite: null,
+		nextPit: 0,
+	},
+];
