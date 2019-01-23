@@ -6,9 +6,8 @@ class Pit extends Component {
         const team = data.team;
         const active = team == activePlayer ? "active" : "not";
         const home = data.home ? "home" : "";
-
-
         const stones = [];
+
         for(var i = 0; i < data.stones; i++) {
             stones.push(
                 <ReactCSSTransitionGroup transitionName="example"
@@ -20,7 +19,7 @@ class Pit extends Component {
                     <span className="stone">o</span>
                 </ReactCSSTransitionGroup>);
         }
-
+        
         const displayStone = home ? "" : stones;
 
         return (
